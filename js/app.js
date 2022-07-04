@@ -27,7 +27,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+multiply (a,b) {
+  let number = a * b
+  return [number,`The product of ${b} is $ {number}.`]
 }
 
 // Here is the test for multiply(); uncomment it to run it
